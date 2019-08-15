@@ -13,7 +13,7 @@ echo "changing workdir to repo-name"
 ## Step-3: Build Docker file
 
 echo "Building docker file"
-docker build -t navadeep0927/kubenavadeep:latest .
+docker build -t navadeep0927/kubenavadeep:1.0.0 .
 ## Image Name: <tag>
 
 ## Step-4: Verify image is built
@@ -24,4 +24,4 @@ docker images | grep navadeep0927/kubenavadeep
 
 ## Push to docker hub
 
-docker push navadeep0927/kubenavadeep:latest 
+docker push navadeep0927/kubenavadeep:1.0.0
